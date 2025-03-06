@@ -2,25 +2,31 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #f5f5f5;
+  background-color: rgb(15, 15, 15);
   margin: 0;
   padding: 0;
 }
+
 
 /* Container central */
 .container {
   max-width: 400px;
   margin: 50px auto;
   padding: 20px;
-  background: white;
+  background: rgb(39, 26,20  );
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
 }
 
+h1, p {
+  position: relative;
+  margin-top: 5px;
+  color: rgb(204, 204, 204);
+}
 h2{
   position: relative;
-  margin-top: -20px;
-  color: rgb(68, 65, 65);
+  color: rgb(204, 204, 204);
+  margin-bottom: 50;
 }
 
 /* Foto de perfil */
@@ -42,6 +48,26 @@ h2{
   border-radius: 5px;
   font-size: 18px;
   transition: background 0.3s;
+}
+
+.links a:nth-child(1) {
+  background: #C13584;
+}
+
+.links a:nth-child(1):hover {
+  background: #f856b2;
+}
+
+.links a:nth-child(1) {
+  background: #C13584;
+}
+
+.links a:nth-child(2) {
+  background: #14171A;
+}
+
+.links a:nth-child(2):hover {
+  background: #25282b;
 }
 
 .links a:hover {
